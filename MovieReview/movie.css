@@ -1,0 +1,114 @@
+body {
+    background-image: url("background.png");
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 8pt;
+}
+
+#banner {
+    height: 50px;
+    background-image: url("bannerbg.png");
+}
+img.banner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#main {
+    width: 800px;
+    border: 4px solid gray;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    height: auto;
+    display: block;
+}
+
+#main div {
+    display: inline-block;
+}
+
+#main-left {
+    width: 550px;
+    background-image: url("bannerbg.png");
+    background-size: 83px;
+    overflow: hidden;
+}
+#main-right {
+    width: 250px;
+    float: right;
+}
+img.left {
+    float: left;
+}
+span.rate {
+    font-weight: bold;
+    font-size: 48pt;
+    color: red;
+    padding-left: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24pt;
+    font-weight: bold;
+    font-family: Tahoma, Verdana, sans-serif;
+    text-shadow: 3px 3px #999999;
+}
+
+.columns {
+    width: 550px;
+}
+#left {
+    width: 275px;
+}
+#right {
+    width: 275px;
+    float: right;
+}
+.text {
+    border: 2px solid gray;
+    border-radius: 10px;
+    background-color: #E8DC9B;
+    font-weight: bold;
+    font-size: 8pt;
+    padding: 8px;
+    width: 87%;
+    height: auto;
+    margin: 2%;
+}
+.reviewer {
+    padding: 8px;
+    margin-top: 2px;
+    margin-bottom: 20pt;
+}
+img.icon {
+    float: left;
+    margin-right: 5px;
+}
+
+.overview {
+    background-color: #A2B964;
+    height: auto;
+    padding: 10pt;
+    display: inline;
+}
+
+dl {
+    font-size: 8pt;
+    font-family: Arial, sans-serif;
+}
+
+dt {
+    margin-top: 10pt;
+    font-weight: bold;
+}
+
+p.foot {
+    background-color: #A2B964;
+    text-align: center;
+    padding: 5px;
+    clear: right;
+    margin-bottom: 0px;
+}
