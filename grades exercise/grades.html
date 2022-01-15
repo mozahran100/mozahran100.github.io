@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="grade.css" type="text/css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retrieve Grade</title>
+</head>
+<body>
+    <form action="http://mumstudents.org/params.php">
+        
+
+        <h1>Retrieve your grade</h1>
+        <fieldset>
+            <legend>Get your grade </legend>
+                <form action="http://mumstudents.org/params.php" method="POST">
+                    <label for="name">Name: </label><input type="text" name="name" size="20" /><br>
+                    <label for="name">Student ID: </label><input type="text" name="id" size="20" /><br>
+                    <label for="os">Choose the course:</label>
+                        <select name="assignment" id="assignment">
+                            <option value="fpp">FPP</option>
+                            <option value="mpp">MPP</option>
+                            <option value="algo">ALGO</option>
+                            <option value="dbms">DBMS</option>
+                            <option value="wap">WAP</option>
+                        </select><br>
+                    <label for="entry">Your entry: </label>
+                        <input type="radio" name="entry" value="" checked/>August 2021
+                    <br>
+                    <p> <input type="checkbox" name="confirmation" required> I confirm that I will search for my grades only. </p>
+                    <br>
+                    <label for="submit"><input type="submit" value="Search"></label>
+                </form>
+            </fieldset>
+    
+    </form>
+</body>
+</html>
