@@ -1,0 +1,31 @@
+fieldset {
+    background-color:lightgray;
+    width: 600px;
+    border: 2px outset gray;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+legend, p {
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* img {
+    width: 200px;
+    display: block;
+    margin-left: 400px;
+    margin-bottom: 100px;
+    margin-top: 10px;
+} */
+
+label{
+    margin: 5px;
+    width: 250px;
+    display: inline-block;
+    font-weight: bold;
+}
