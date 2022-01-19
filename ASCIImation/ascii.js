@@ -72,7 +72,7 @@ function onChangeAnimation() {
     if (selectedValue === "Blank") {area.value = ANIMATIONS["Blank"];}
 }
 
-// function to be called when checkbox speed is checked or unchecked
+// function to be called when speed checkbox is checked or unchecked
 //change the speed of the animation by changing the value of timer
 // And start again the animation
 function onCheckedFunction () {
