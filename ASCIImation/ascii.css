@@ -1,0 +1,37 @@
+body {
+    background-color: #CCCCFF;
+    font-family: sans-serif;
+    font: 14pt bold;
+
+}
+
+h1 {
+    font-size: 32pt;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0px;
+
+}
+
+textarea {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 400px;
+    font: 12pt bold;
+    font-family: monospace;
+}
+fieldset {
+    border: 5px solid black;
+    display: inline-block;
+    margin: 0 auto;
+}
+div {
+    margin: 0 auto;
+    width: 540px;
+}
+a {
+    float: right;
+    display: block;
+}
